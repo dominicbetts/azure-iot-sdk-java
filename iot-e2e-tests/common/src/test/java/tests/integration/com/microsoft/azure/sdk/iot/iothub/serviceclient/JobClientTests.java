@@ -394,6 +394,7 @@ public class JobClientTests extends IntegrationTest
         assertEquals(0, deviceTestManger.getStatusError());
     }
 
+    @Ignore
     @Test(timeout = TEST_TIMEOUT_MILLISECONDS)
     public void scheduleDeviceMethodWithAzureSasCredentialSucceed() throws InterruptedException, IOException, IotHubException
     {
@@ -409,6 +410,7 @@ public class JobClientTests extends IntegrationTest
         scheduleDeviceMethod(buildJobClientWithTokenCredential());
     }
 
+    @Ignore
     @Test(timeout = TEST_TIMEOUT_MILLISECONDS)
     public void jobClientTokenRenewalWithAzureSasCredential() throws InterruptedException, IOException, IotHubException
     {
