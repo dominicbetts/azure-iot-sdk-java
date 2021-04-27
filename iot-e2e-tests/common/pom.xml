@@ -190,6 +190,7 @@
                                     <exclude>com.azure:azure-storage-blob</exclude>
                                     <exclude>com.azure:azure-core</exclude>
                                     <exclude>com.azure:azure-core-http-netty</exclude>
+                                    <exclude>com.azure:azure-storage-common</exclude>
                                 </excludes>
                             </artifactSet>
                         </configuration>
