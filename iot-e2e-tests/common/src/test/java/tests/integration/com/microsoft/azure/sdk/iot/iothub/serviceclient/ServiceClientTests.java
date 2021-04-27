@@ -27,6 +27,7 @@ import com.microsoft.azure.sdk.iot.device.IotHubClientProtocol;
 import com.microsoft.azure.sdk.iot.service.auth.AuthenticationType;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -168,6 +169,7 @@ public class ServiceClientTests extends IntegrationTest
         cloudToDeviceTelemetry(false, false, false, false, false);
     }
 
+    @Ignore
     @Test
     @StandardTierHubOnlyTest
     public void cloudToDeviceTelemetryWithTokenCredential() throws Exception

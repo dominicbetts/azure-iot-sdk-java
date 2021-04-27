@@ -145,6 +145,7 @@ public class RegistryManagerTests extends IntegrationTest
         deviceLifecycle(testInstance);
     }
 
+    @Ignore
     @Test
     public void deviceLifecycleWithTokenCredential() throws Exception
     {
@@ -542,6 +543,7 @@ public class RegistryManagerTests extends IntegrationTest
         assertTrue("Bad format exception wasn't thrown but was expected", expectedExceptionThrown);
     }
 
+    @Ignore
     @StandardTierHubOnlyTest
     @Test
     @ContinuousIntegrationTest
