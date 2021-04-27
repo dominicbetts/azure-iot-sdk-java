@@ -22,6 +22,7 @@ import com.microsoft.azure.sdk.iot.service.exceptions.IotHubNotFoundException;
 import com.microsoft.azure.sdk.iot.service.exceptions.IotHubUnathorizedException;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -79,6 +80,7 @@ public class DeviceMethodTests extends DeviceMethodCommon
         super.invokeMethodSucceed();
     }
 
+    @Ignore
     @Test
     @StandardTierHubOnlyTest
     public void invokeMethodSucceedWithTokenCredential() throws Exception

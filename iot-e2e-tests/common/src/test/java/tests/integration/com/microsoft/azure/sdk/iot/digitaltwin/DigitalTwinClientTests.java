@@ -253,6 +253,7 @@ public class DigitalTwinClientTests extends IntegrationTest
         assertEquals(responseWithHeaders.body().getMetadata().getModelId(), E2ETestConstants.THERMOSTAT_MODEL_ID);
     }
 
+    @Ignore
     @Test
     @StandardTierHubOnlyTest
     public void getDigitalTwinWithTokenCredential() {

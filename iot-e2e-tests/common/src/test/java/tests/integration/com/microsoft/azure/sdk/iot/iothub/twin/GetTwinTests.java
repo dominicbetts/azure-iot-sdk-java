@@ -68,6 +68,7 @@ public class GetTwinTests extends DeviceTwinCommon
         super.testGetDeviceTwin();
     }
 
+    @Ignore
     @Test
     @StandardTierHubOnlyTest
     public void testGetDeviceTwinWithTokenCredential() throws IOException, InterruptedException, IotHubException, GeneralSecurityException, ModuleClientException, URISyntaxException
