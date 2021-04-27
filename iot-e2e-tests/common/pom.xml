@@ -192,6 +192,23 @@
                                     <exclude>com.azure:azure-core-http-netty</exclude>
                                     <exclude>com.azure:azure-storage-common</exclude>
                                     <exclude>com.azure:azure-storage-internal-avro</exclude>
+                                    <exclude>io.projectreactor.netty:reactor-netty</exclude>
+                                    <exclude>io.projectreactor:reactor-core</exclude>
+                                    <exclude>jakarta.xml.bind:jakarta.xml.bind-api</exclude>
+                                    <exclude>org.slf4j:slf4j-api</exclude>
+                                    <exclude>org.reactivestreams:reactive-streams</exclude>
+                                    <exclude>org.codehaus.woodstox:stax2-api</exclude>
+                                    <exclude>jakarta.xml.bind:jakarta.xml.bind-api</exclude>
+                                    <exclude>jakarta.activation:jakarta.activation-api</exclude>
+                                    <exclude>io.netty:netty-common</exclude>
+                                    <exclude>io.netty:netty-resolver</exclude>
+                                    <exclude>io.netty:netty-tcnative-boringssl-static</exclude>
+                                    <exclude>io.netty:netty-handler</exclude>
+                                    <exclude>io.netty:netty-codec-http</exclude>
+                                    <exclude>io.netty:netty-codec-socks</exclude>
+                                    <exclude>io.netty:netty-codec</exclude>
+                                    <exclude>io.netty:netty-codec-http2</exclude>
+                                    <exclude>io.netty:netty-codec-http</exclude>
                                 </excludes>
                             </artifactSet>
                         </configuration>
