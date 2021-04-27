@@ -191,6 +191,7 @@
                                     <exclude>com.azure:azure-core</exclude>
                                     <exclude>com.azure:azure-core-http-netty</exclude>
                                     <exclude>com.azure:azure-storage-common</exclude>
+                                    <exclude>com.azure:azure-storage-internal-avro</exclude>
                                 </excludes>
                             </artifactSet>
                         </configuration>
