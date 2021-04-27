@@ -187,6 +187,7 @@
                                     <exclude>junit:junit</exclude>
                                     <exclude>org.apache.commons:commons-lang3</exclude>
                                     <exclude>org.slf4j:slf4j-log4j12</exclude>
+                                    <exclude>com.azure:azure-storage-blob</exclude>
                                 </excludes>
                             </artifactSet>
                         </configuration>
