@@ -189,6 +189,7 @@
                                     <exclude>org.slf4j:slf4j-log4j12</exclude>
                                     <exclude>com.azure:azure-storage-blob</exclude>
                                     <exclude>com.azure:azure-core</exclude>
+                                    <exclude>com.azure:azure-core-http-netty</exclude>
                                 </excludes>
                             </artifactSet>
                         </configuration>
