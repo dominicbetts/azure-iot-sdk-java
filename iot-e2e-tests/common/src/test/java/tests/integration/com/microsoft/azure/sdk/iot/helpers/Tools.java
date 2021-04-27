@@ -6,7 +6,6 @@
 package tests.integration.com.microsoft.azure.sdk.iot.helpers;
 
 import com.azure.core.credential.TokenCredential;
-import com.azure.identity.ClientSecretCredentialBuilder;
 import com.microsoft.azure.sdk.iot.deps.serializer.AuthenticationParser;
 import com.microsoft.azure.sdk.iot.deps.serializer.AuthenticationTypeParser;
 import com.microsoft.azure.sdk.iot.deps.serializer.ExportImportDeviceParser;
@@ -881,10 +880,6 @@ public class Tools
         Objects.requireNonNull(clientId, IOTHUB_CLIENT_ID_ENV_VAR_NAME + " not found in environment variables");
         Objects.requireNonNull(clientSecret, IOTHUB_CLIENT_SECRET_ENV_VAR_NAME + " not found in environment variables");
 
-        return new ClientSecretCredentialBuilder()
-            .clientSecret(clientSecret)
-            .clientId(clientId)
-            .tenantId(tenantId)
-            .build();
+        return null;
     }
 }

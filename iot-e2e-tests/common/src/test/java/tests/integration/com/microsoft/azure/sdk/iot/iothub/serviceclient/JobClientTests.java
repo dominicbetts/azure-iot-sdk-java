@@ -31,7 +31,6 @@ import com.microsoft.azure.sdk.iot.service.jobs.JobResult;
 import com.microsoft.azure.sdk.iot.service.jobs.JobStatus;
 import com.microsoft.azure.sdk.iot.service.jobs.JobType;
 import lombok.extern.slf4j.Slf4j;
-import net.jcip.annotations.NotThreadSafe;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
@@ -71,7 +70,6 @@ import static org.junit.Assert.*;
  */
 @Slf4j
 @IotHubTest
-@NotThreadSafe // these tests will be run in serial because of this annotation. IoT Hub has a limit on number of concurrent jobs
 public class JobClientTests extends IntegrationTest
 {
     protected static String iotHubConnectionString = "";
