@@ -145,6 +145,7 @@ public class RegistryManagerTests extends IntegrationTest
         deviceLifecycle(testInstance);
     }
 
+    @Ignore
     @Test
     public void deviceLifecycleWithTokenCredential() throws Exception
     {

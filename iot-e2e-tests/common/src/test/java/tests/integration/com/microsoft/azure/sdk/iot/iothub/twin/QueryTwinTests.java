@@ -364,6 +364,7 @@ public class QueryTwinTests extends DeviceTwinCommon
         testQueryTwin();
     }
 
+    @Ignore
     @Test
     @StandardTierHubOnlyTest
     public void testQueryTwinWithTokenCredential() throws IOException, InterruptedException, IotHubException, GeneralSecurityException, URISyntaxException, ModuleClientException
